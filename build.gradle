@@ -1,0 +1,43 @@
+buildscript {
+	ext {
+		springBootVersion = '1.5.10.RELEASE'
+	}
+	repositories {
+		mavenCentral()
+	}
+	dependencies {
+		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+	}
+}
+
+plugins{
+	id 'java'
+	id "com.ewerk.gradle.plugins.querydsl" version "1.0.9"
+}
+//querydsl {
+//	springDataMongo = true
+//}
+
+
+//apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'org.springframework.boot'
+
+group = 'com.example'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = 1.8
+
+
+repositories {
+	mavenCentral()
+}
+
+
+dependencies {
+	compile('org.springframework.boot:spring-boot-starter-actuator')
+	compile('org.springframework.boot:spring-boot-starter-web')
+	testCompile('org.springframework.boot:spring-boot-starter-test')
+	compile "org.springframework.boot:spring-boot-configuration-processor"
+	compile "org.springframework.data:spring-data-mongodb:1.9.1.RELEASE"
+//	compile "com.querydsl:querydsl-mongodb:4.1.4:apt"
+}

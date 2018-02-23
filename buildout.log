@@ -1,0 +1,168 @@
+Initialized native services in: /home/gclaybur/.gradle/native
+Connected to daemon DaemonInfo{pid=30740, address=[8b6c8b16-9f9e-4ec9-a04b-7631cc14a104 port:45077, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]], state=Idle, lastBusy=1518315525544, context=DefaultDaemonContext[uid=dea8486b-fcd9-4d4c-899c-55b141678f9c,javaHome=/usr/lib/jvm/java-8-oracle,daemonRegistryDir=/home/gclaybur/.gradle/daemon,pid=30740,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]}. Dispatching request Build{id=43933e4e-c5f8-444d-938c-8d8765fc9b52.1, currentDir=/home/gclaybur/dev/gradleintellij}.
+Received result org.gradle.launcher.daemon.protocol.BuildStarted@15713d56 from daemon DaemonInfo{pid=30740, address=[8b6c8b16-9f9e-4ec9-a04b-7631cc14a104 port:45077, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]], state=Idle, lastBusy=1518315525544, context=DefaultDaemonContext[uid=dea8486b-fcd9-4d4c-899c-55b141678f9c,javaHome=/usr/lib/jvm/java-8-oracle,daemonRegistryDir=/home/gclaybur/.gradle/daemon,pid=30740,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]} (build should be starting).
+The client will now receive all logging from the daemon (pid: 30740). The daemon log file: /home/gclaybur/.gradle/daemon/3.5.1/daemon-30740.out.log
+Starting 6th build in daemon [uptime: 26 mins 36.267 secs, performance: 98%, no major garbage collections]
+Executing build with daemon context: DefaultDaemonContext[uid=dea8486b-fcd9-4d4c-899c-55b141678f9c,javaHome=/usr/lib/jvm/java-8-oracle,daemonRegistryDir=/home/gclaybur/.gradle/daemon,pid=30740,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+Creating new cache for plugin-use-metadata, path /home/gclaybur/.gradle/caches/3.5.1/plugin-resolution/plugin-use-metadata.bin, access org.gradle.cache.internal.DefaultCacheAccess@4ffffe77
+Creating new cache for client-status, path /home/gclaybur/.gradle/caches/3.5.1/plugin-resolution/client-status.bin, access org.gradle.cache.internal.DefaultCacheAccess@4ffffe77
+Starting Build
+Settings evaluated using settings file '/master/settings.gradle'.
+Projects loaded. Root project using build file '/home/gclaybur/dev/gradleintellij/build.gradle'.
+Included projects: [root project 'gradleintellij']
+Evaluating root project 'gradleintellij' using build file '/home/gclaybur/dev/gradleintellij/build.gradle'.
+Creating new cache for metadata-2.23/module-metadata, path /home/gclaybur/.gradle/caches/modules-2/metadata-2.23/module-metadata.bin, access org.gradle.cache.internal.DefaultCacheAccess@479b1e3a
+Creating new cache for metadata-2.23/artifact-at-repository, path /home/gclaybur/.gradle/caches/modules-2/metadata-2.23/artifact-at-repository.bin, access org.gradle.cache.internal.DefaultCacheAccess@479b1e3a
+Applying Querydsl plugin
+Applying querydsl plugin
+Using 4 worker leases.
+Creating new cache for fileHashes, path /home/gclaybur/dev/gradleintellij/.gradle/3.5.1/taskHistory/fileHashes.bin, access org.gradle.cache.internal.DefaultCacheAccess@51dcec0d
+Applying dependency management to configuration 'apiElements' in project 'gradleintellij'
+Applying dependency management to configuration 'archives' in project 'gradleintellij'
+Applying dependency management to configuration 'compile' in project 'gradleintellij'
+Applying dependency management to configuration 'compileClasspath' in project 'gradleintellij'
+Applying dependency management to configuration 'compileOnly' in project 'gradleintellij'
+Applying dependency management to configuration 'default' in project 'gradleintellij'
+Applying dependency management to configuration 'implementation' in project 'gradleintellij'
+Applying dependency management to configuration 'querydsl' in project 'gradleintellij'
+Applying dependency management to configuration 'runtime' in project 'gradleintellij'
+Applying dependency management to configuration 'runtimeClasspath' in project 'gradleintellij'
+Applying dependency management to configuration 'runtimeElements' in project 'gradleintellij'
+Applying dependency management to configuration 'runtimeOnly' in project 'gradleintellij'
+Applying dependency management to configuration 'testCompile' in project 'gradleintellij'
+Applying dependency management to configuration 'testCompileClasspath' in project 'gradleintellij'
+Applying dependency management to configuration 'testCompileOnly' in project 'gradleintellij'
+Applying dependency management to configuration 'testImplementation' in project 'gradleintellij'
+Applying dependency management to configuration 'testRuntime' in project 'gradleintellij'
+Applying dependency management to configuration 'testRuntimeClasspath' in project 'gradleintellij'
+Applying dependency management to configuration 'testRuntimeOnly' in project 'gradleintellij'
+Querydsl sources dir: /home/gclaybur/dev/gradleintellij/src/querydsl/java
+Querydsl library: com.querydsl:querydsl-apt:4.1.3
+Create source set 'querydsl'.
+Applying dependency management to configuration 'querydslCompile' in project 'gradleintellij'
+Applying dependency management to configuration 'querydslImplementation' in project 'gradleintellij'
+Applying dependency management to configuration 'querydslRuntime' in project 'gradleintellij'
+Applying dependency management to configuration 'querydslCompileOnly' in project 'gradleintellij'
+Applying dependency management to configuration 'querydslCompileClasspath' in project 'gradleintellij'
+Applying dependency management to configuration 'querydslRuntimeOnly' in project 'gradleintellij'
+Applying dependency management to configuration 'querydslRuntimeClasspath' in project 'gradleintellij'
+Configuring agent
+All projects evaluated.
+Selected primary task 'build' from project :
+Creating new cache for annotation-processors, path /home/gclaybur/dev/gradleintellij/.gradle/3.5.1/fileContent/annotation-processors.bin, access org.gradle.cache.internal.DefaultCacheAccess@54c285ca
+Tasks to be executed: [task ':initQuerydslSourcesDir', task ':compileQuerydsl', task ':compileJava', task ':processResources', task ':classes', task ':findMainClass', task ':jar', task ':bootRepackage', task ':assemble', task ':compileTestJava', task ':processTestResources', task ':testClasses', task ':test', task ':check', task ':build']
+Creating new cache for jvmClassSignatures, path /home/gclaybur/dev/gradleintellij/.gradle/3.5.1/taskHistory/jvmClassSignatures.bin, access org.gradle.cache.internal.DefaultCacheAccess@51dcec0d
+Creating new cache for fileSnapshots, path /home/gclaybur/dev/gradleintellij/.gradle/3.5.1/taskHistory/fileSnapshots.bin, access org.gradle.cache.internal.DefaultCacheAccess@51dcec0d
+Creating new cache for taskHistory, path /home/gclaybur/dev/gradleintellij/.gradle/3.5.1/taskHistory/taskHistory.bin, access org.gradle.cache.internal.DefaultCacheAccess@51dcec0d
+:initQuerydslSourcesDir (Thread[Daemon worker Thread 4,5,main]) started.
+:initQuerydslSourcesDir
+Putting task artifact state for task ':initQuerydslSourcesDir' into context took 0.0 secs.
+Executing task ':initQuerydslSourcesDir' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:initQuerydslSourcesDir (Thread[Daemon worker Thread 4,5,main]) completed. Took 0.005 secs.
+:compileQuerydsl (Thread[Daemon worker Thread 4,5,main]) started.
+:compileQuerydsl
+Putting task artifact state for task ':compileQuerydsl' into context took 0.0 secs.
+Task :compileQuerydsl class loader hash: 4aab457d494381a8fb4f087b0ac78efb
+Task :compileQuerydsl actions class loader hashes: [4aab457d494381a8fb4f087b0ac78efb, 0c0afac576bb2de41200bc36bccb9200, e1d5c4b3003235964bf4bb274716a6a0]
+Resolving global dependency management for project 'gradleintellij'
+Excluding [commons-logging:commons-logging]
+Skipping task ':compileQuerydsl' as it is up-to-date (took 0.296 secs).
+:compileQuerydsl UP-TO-DATE
+:compileQuerydsl (Thread[Daemon worker Thread 4,5,main]) completed. Took 0.297 secs.
+:compileJava (Thread[Daemon worker Thread 4,5,main]) started.
+:compileJava
+Putting task artifact state for task ':compileJava' into context took 0.0 secs.
+Task :compileJava class loader hash: e1d5c4b3003235964bf4bb274716a6a0
+Task :compileJava actions class loader hashes: [4aab457d494381a8fb4f087b0ac78efb, 0c0afac576bb2de41200bc36bccb9200, e1d5c4b3003235964bf4bb274716a6a0]
+Excluding []
+Skipping task ':compileJava' as it is up-to-date (took 0.013 secs).
+:compileJava UP-TO-DATE
+:compileJava (Thread[Daemon worker Thread 4,5,main]) completed. Took 0.014 secs.
+:processResources (Thread[Daemon worker Thread 4,5,main]) started.
+:processResources
+Putting task artifact state for task ':processResources' into context took 0.001 secs.
+Task :processResources class loader hash: e1d5c4b3003235964bf4bb274716a6a0
+Task :processResources actions class loader hashes: [0c0afac576bb2de41200bc36bccb9200]
+Skipping task ':processResources' as it is up-to-date (took 0.002 secs).
+:processResources UP-TO-DATE
+:processResources (Thread[Daemon worker Thread 4,5,main]) completed. Took 0.003 secs.
+:classes (Thread[Daemon worker Thread 4,5,main]) started.
+:classes
+Skipping task ':classes' as it has no actions.
+:classes UP-TO-DATE
+:classes (Thread[Daemon worker Thread 4,5,main]) completed. Took 0.001 secs.
+:findMainClass (Thread[Daemon worker Thread 4,5,main]) started.
+:findMainClass
+Putting task artifact state for task ':findMainClass' into context took 0.0 secs.
+Executing task ':findMainClass' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+Computed main class: com.example.gradleintellij.GradleintellijApplication
+Found main: com.example.gradleintellij.GradleintellijApplication
+:findMainClass (Thread[Daemon worker Thread 4,5,main]) completed. Took 0.001 secs.
+:jar (Thread[Daemon worker Thread 4,5,main]) started.
+:jar
+Putting task artifact state for task ':jar' into context took 0.0 secs.
+Task :jar class loader hash: e1d5c4b3003235964bf4bb274716a6a0
+Task :jar actions class loader hashes: [0c0afac576bb2de41200bc36bccb9200]
+Executing task ':jar' (up-to-date check took 0.086 secs) due to:
+  Output property 'archivePath' file /home/gclaybur/dev/gradleintellij/build/libs/gradleintellij-0.0.1-SNAPSHOT.jar has changed.
+:jar (Thread[Daemon worker Thread 4,5,main]) completed. Took 0.095 secs.
+:bootRepackage (Thread[Daemon worker Thread 4,5,main]) started.
+:bootRepackage
+Putting task artifact state for task ':bootRepackage' into context took 0.0 secs.
+Executing task ':bootRepackage' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+Setting mainClass: com.example.gradleintellij.GradleintellijApplication
+Excluding []
+:bootRepackage (Thread[Daemon worker Thread 4,5,main]) completed. Took 0.086 secs.
+:assemble (Thread[Daemon worker Thread 4,5,main]) started.
+:assemble
+Skipping task ':assemble' as it has no actions.
+:assemble (Thread[Daemon worker Thread 4,5,main]) completed. Took 0.001 secs.
+:compileTestJava (Thread[Daemon worker Thread 4,5,main]) started.
+:compileTestJava
+Putting task artifact state for task ':compileTestJava' into context took 0.0 secs.
+Task :compileTestJava class loader hash: e1d5c4b3003235964bf4bb274716a6a0
+Task :compileTestJava actions class loader hashes: [4aab457d494381a8fb4f087b0ac78efb, 0c0afac576bb2de41200bc36bccb9200, e1d5c4b3003235964bf4bb274716a6a0]
+Excluding [commons-logging:commons-logging]
+Skipping task ':compileTestJava' as it is up-to-date (took 0.079 secs).
+:compileTestJava UP-TO-DATE
+:compileTestJava (Thread[Daemon worker Thread 4,5,main]) completed. Took 0.082 secs.
+:processTestResources (Thread[Daemon worker Thread 4,5,main]) started.
+:processTestResources
+Putting task artifact state for task ':processTestResources' into context took 0.0 secs.
+Task :processTestResources class loader hash: e1d5c4b3003235964bf4bb274716a6a0
+Task :processTestResources actions class loader hashes: [0c0afac576bb2de41200bc36bccb9200]
+Skipping task ':processTestResources' as it is up-to-date (took 0.001 secs).
+:processTestResources UP-TO-DATE
+:processTestResources (Thread[Daemon worker Thread 4,5,main]) completed. Took 0.002 secs.
+:testClasses (Thread[Daemon worker Thread 4,5,main]) started.
+:testClasses
+Skipping task ':testClasses' as it has no actions.
+:testClasses UP-TO-DATE
+:testClasses (Thread[Daemon worker Thread 4,5,main]) completed. Took 0.001 secs.
+:test (Thread[Daemon worker Thread 4,5,main]) started.
+:test
+Putting task artifact state for task ':test' into context took 0.0 secs.
+Task :test class loader hash: e1d5c4b3003235964bf4bb274716a6a0
+Task :test actions class loader hashes: [0c0afac576bb2de41200bc36bccb9200, e1d5c4b3003235964bf4bb274716a6a0]
+Excluding []
+Skipping task ':test' as it is up-to-date (took 0.016 secs).
+:test UP-TO-DATE
+:test (Thread[Daemon worker Thread 4,5,main]) completed. Took 0.017 secs.
+:check (Thread[Daemon worker Thread 4,5,main]) started.
+:check
+Skipping task ':check' as it has no actions.
+:check UP-TO-DATE
+:check (Thread[Daemon worker Thread 4,5,main]) completed. Took 0.0 secs.
+:build (Thread[Daemon worker Thread 4,5,main]) started.
+:build
+Skipping task ':build' as it has no actions.
+:build (Thread[Daemon worker Thread 4,5,main]) completed. Took 0.0 secs.
+
+BUILD SUCCESSFUL
+
+Total time: 1.447 secs
+Stopped 0 worker daemon(s).
+Received result Success[value=null] from daemon DaemonInfo{pid=30740, address=[8b6c8b16-9f9e-4ec9-a04b-7631cc14a104 port:45077, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]], state=Idle, lastBusy=1518315525544, context=DefaultDaemonContext[uid=dea8486b-fcd9-4d4c-899c-55b141678f9c,javaHome=/usr/lib/jvm/java-8-oracle,daemonRegistryDir=/home/gclaybur/.gradle/daemon,pid=30740,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]} (build should be done).
