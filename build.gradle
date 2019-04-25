@@ -12,12 +12,16 @@ buildscript {
 
 plugins{
 	id 'java'
-	id "com.ewerk.gradle.plugins.querydsl" version "1.0.9"
+	id "com.ewerk.gradle.plugins.querydsl" version "1.0.10"
 }
-//querydsl {
-//	springDataMongo = true
-//}
 
+sourceSets {
+	main {
+		java {
+			srcDirs += file('src/querydsl/java')
+		}
+	}
+}
 
 //apply plugin: 'java'
 apply plugin: 'eclipse'
@@ -32,6 +36,9 @@ repositories {
 	mavenCentral()
 }
 
+querydsl {
+	springDataMongo = true
+}
 
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-actuator')
@@ -39,5 +46,7 @@ dependencies {
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 	compile "org.springframework.boot:spring-boot-configuration-processor"
 	compile "org.springframework.data:spring-data-mongodb:1.9.1.RELEASE"
-//	compile "com.querydsl:querydsl-mongodb:4.1.4:apt"
+
+	compile(group: 'com.querydsl', name: 'querydsl-mongodb')
+	compile 'com.querydsl:querydsl-apt'
 }
